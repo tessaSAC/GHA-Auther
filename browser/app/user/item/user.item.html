@@ -15,14 +15,14 @@
     <h4 class="media-heading tucked">
       <div
         ng-if="isForm"
-        contenteditable
+        contenteditable="false"
         placeholder="Jean Doe"
         ng-model="user.name"
         class="form-like">
       </div>
       <span
         ng-if="!isForm"
-        contenteditable
+        contenteditable="false"
         placeholder="Jean Doe"
         ng-model="user.name"
         ng-model-options="{debounce: 500}"
@@ -39,14 +39,14 @@
     <h5 class="tucked">
       <div
         ng-if="isForm"
-        contenteditable
+        contenteditable="false"
         placeholder="email@website.com"
         ng-model="user.email"
         class="form-like">
       </div>
       <span
         ng-if="!isForm"
-        contenteditable
+        contenteditable="false"
         ng-model="user.email"
         ng-model-options="{debounce: 500}"
         eat-click>
@@ -55,14 +55,14 @@
     <h5 class="tucked">
       <div
         ng-if="isForm"
-        contenteditable
+        contenteditable="false"
         placeholder="(555) 555-5555"
         ng-model="user.phone"
         class="form-like">
       </div>
       <span
         ng-if="!isForm"
-        contenteditable
+        contenteditable="false"
         placeholder="(555) 555-5555"
         ng-model="user.phone"
         ng-model-options="{debounce: 500}"
